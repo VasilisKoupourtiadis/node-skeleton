@@ -1,0 +1,30 @@
+{
+  "name": "skeleton",
+  "version": "1.0.0",
+  "description": "1. **Klona repot:**\r    - Öppna terminalen.\r    - Navigera till mappen för Webbserver-kursen och kör följande kommando:",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VasilisKoupourtiadis/node-skeleton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VasilisKoupourtiadis/node-skeleton/issues"
+  },
+  "homepage": "https://github.com/VasilisKoupourtiadis/node-skeleton#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mssql": "^11.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
